@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Omancoding Vision Application</title>
+<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<script src="https://rawgit.com/enyo/dropzone/master/dist/dropzone.js"></script>
+<link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.5.0/proj4-src.js"> </script>
+
+</head>
+<body>
+<p>
+	This ocr software to filter and extract values based on the required speifications. Please upload one of following formats .jpeg,.jpg,.png
+</p>
+<div id='uploadArea' class='dropzone'> </div>
+<div id="map"></div>
+
+<script src="/javascripts/demo.js"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjIhPC8tXEn42U3kW4YHqRMF0h6og0_tA">
+    </script>
+<style>
+	#map {
+		height: 800px;
+		width: 100%;
+	}
+.column {
+	float: left;
+	padding: 10px;
+}
+      html, body { height:100%; }
+
+</style>
+  </body>
+</html>
